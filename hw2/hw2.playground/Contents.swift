@@ -72,7 +72,7 @@ func trapAHAHA(fnd1 a: GasDouble, fnd2 b: GasDouble, fnd3 h: GasDouble, clos: (G
 
 var res = trapAHAHA(fnd1: 18, fnd2: 6, fnd3: 3.5, clos: closure)
 
-// Бермуды WTF (мЫ бУдЕм NсКаТb П0 Тp3м ЕгО_О сторонам, потому что я его первым вспомнил ФОРМУЛА ГЕРОиНА)
+// Бермуды WTF (мЫ бУдЕм NсКаТb П0 Тp3м ЕгО_О сторонам, потому что я его первым вспомнил ФОРМУЛА ГЕРОиНА C21H23NO5)
 func rectLol(WT a: GasDouble, TF b: GasDouble, WF c: GasDouble) -> GasDouble {
     // сначала ищем полупериметр треугольника
     var p = (a + b + c) / 2
