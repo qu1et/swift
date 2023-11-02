@@ -72,26 +72,26 @@ for (elem, days) in daysInMonth.enumerated() {
 print(tuple2)
 
 // Reverse print
-//for i in stride(from: tupledDays.count - 1, to: 0, by: -1) {
-//    print("\(tupledDays[i].0) - \(tupledDays[i].1) дней")
-//}
+for i in stride(from: tupledDays.count - 1, to: 0, by: -1) {
+    print("\(tupledDays[i].0) - \(tupledDays[i].1) дней")
+}
 
 // Ну или так
-//for days in tupledDays.reversed() {
-//    print("\(days.0) - \(days.1) дней")
-//}
+for days in tupledDays.reversed() {
+    print("\(days.0) - \(days.1) дней")
+}
 
-//for days in tupledDays {
-//    print("\(days.0) - \(days.1) дней")
-//}
+for days in tupledDays {
+    print("\(days.0) - \(days.1) дней")
+}
 
-//for days in daysInMonth {
-//    print(days)
-//}
-//
-//for (elem, days) in daysInMonth.enumerated() {
-//    print("\(months[elem]) - \(days) дней")
-//}
+for days in daysInMonth {
+    print(days)
+}
+
+for (elem, days) in daysInMonth.enumerated() {
+    print("\(months[elem]) - \(days) дней")
+}
 
 // Задача со звездочкой
 
@@ -148,3 +148,40 @@ var res2 = countDaysBeforeDateByName(month: "Апрель", day: 20)
 print(res2)
 
 // я спать короч
+
+
+// музыкальная пауза (Серега Пират - И я кричу, остановите катку)
+/**
+ Дотка как дотка
+ Несет нас опять по новому кругу.
+ В ранкед матчмейкинг
+ Снова в лесок идет фармить ублюдок.
+ 
+ Мы ведь тоже хотели
+ Пофармить крипов, но увы, мы только смотрели.
+ Мы теряли бараки
+ Когда ты нам сказал "скоро выйду,
+ Терпите ебаные раки"
+ 
+ И я кричу "остановите катку",
+ Эту игру я уже въебал.
+ Эй, лесничок! Заканчивай фармить.
+ А он смеется в войс-чат как еблан.
+ Еще одна слитая катка
+ 
+ Последние крипы.
+ Ты уехал в лп, ну а я нажму снова поиск.
+ Лови мут на прощанье
+ И вышли из лобби на фоне молчанья.
+ 
+ Так достали уроды,
+ Мы с тобою одной и той же породы.
+ Да, но мы так непохожи,
+ Я надеюсь, ты скоро сольешься
+ И мы не встретимся больше, да.
+ 
+ И я кричу "остановите катку",
+ Эту игру я уже въебал.
+ Эй, лесничок! Заканчивай фармить.
+ А он смеется в войс-чат как еблан.
+ */
