@@ -44,13 +44,13 @@ dict
 //
 //dict
 
-//for key in dict.keys {
-//    print("\(key), value = \(dict[key]!)")
-//}
-//
-//for (key, value) in dict {
-//    print("\(key), value = \(value)")
-//}
+for key in dict.keys {
+    print("\(key), value = \(dict[key]!)")
+}
+
+for (key, value) in dict {
+    print("\(key), value = \(value)")
+}
 
 // ------------------------ HW ------------------------
 
